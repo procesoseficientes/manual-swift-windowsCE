@@ -24,10 +24,10 @@ Los detalles con capturas están en el pdf dentro de este repositorio.
 7.	Regresar a la pantalla de inicio
 8. 	Seleccionar WiFi en el menú de inicio
 9. 	Presionar el botón de “Fusion Manager” en la esquina inferior derecha
-10. 	En el primer campo seleccionar “Regulatorio”
-11. 	En el segundo campo el país en el que se esté usando la HH, en nuestro caso “Guatemala”
-12. 	Deseleccionar el cheque
-13. 	Guardar y presionar “Okay” a las siguiente pantallas
+10. En el primer campo seleccionar “Regulatorio”
+11. En el segundo campo el país en el que se esté usando la HH, en nuestro caso “Guatemala”
+12. Deseleccionar el cheque
+13. Guardar y presionar “Okay” a las siguiente pantallas
 
 ## Configurar Red
 1. En “Fusion Manager” buscar WLAN
