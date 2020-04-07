@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configuration>
+  <appSettings>
+    <add key="FileCreated" value="6/23/17 4:09:34 PM" />
+    <add key="FileModified" value="" />
+    <add key="UserName" value="" />
+    <add key="ServerUrl" value="http://172.16.10.35:8088/" />
+    <add key="Environment" value="NAVE" />
+    <add key="LoginCount" value="0" />
+    <add key="Printer" value="" />
+    <add key="LICENSE_OWNER" value="NAVE" />
+  </appSettings>
+</configuration>

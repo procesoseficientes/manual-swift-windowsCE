@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<DSAdvancedTree xmlns="http://www.rescodeveloper.net/schemas/DSAdvancedTree.xsd">
+  <AdvancedTree>
+    <NodeTemplate>
+      <Property Name="BackColor" Value="White" />
+      <Cell Type="Resco.Controls.AdvancedTree.TextCell">
+        <Property Name="TextFont" Value="Arial, 10pt, style=Regular" />
+        <Property Name="Alignment" Value="MiddleCenter" />
+        <Property Name="Anchor" Value="Top, Left" />
+        <Property Name="Bounds" Value="0,0,-1,37" />
+        <Property Name="ForeColor" Value="White" />
+        <Property Name="Border" Value="Flat" />
+        <Property Name="DesignName" Value="PANEL_TITLE" />
+        <Property Name="CellSource" Value="&quot;SCAN POLIZA&quot;" />
+      </Cell>
+      <Property Name="Height" Value="37" />
+      <Property Name="Name" Value="NodeTemplate1" />
+      <Property Name="GradientBackColor" Value="DimGray,Black,Vertical,ff404040,ff404040" />
+      <Property Name="UseGradient" Value="true" />
+    </NodeTemplate>
+    <NodeTemplate>
+      <Property Name="BackColor" Value="Transparent" />
+      <Cell Type="Resco.Controls.AdvancedTree.TextCell">
+        <Property Name="TextFont" Value="Arial, 8pt, style=Regular" />
+        <Property Name="SelectedBackColor" Value="White" />
+        <Property Name="Anchor" Value="Top, Left" />
+        <Property Name="Bounds" Value="0,0,110,16" />
+        <Property Name="ForeColor" Value="White" />
+        <Property Name="Border" Value="Raised" />
+        <Property Name="DesignName" Value="LICENSE_ID" />
+        <Property Name="CellSource" Value="LICENSE_ID" />
+      </Cell>
+      <Cell Type="Resco.Controls.AdvancedTree.TextCell">
+        <Property Name="TextFont" Value="Arial, 8pt, style=Regular" />
+        <Property Name="SelectedBackColor" Value="White" />
+        <Property Name="Anchor" Value="Top, Left" />
+        <Property Name="Bounds" Value="111,0,95,16" />
+        <Property Name="ForeColor" Value="White" />
+        <Property Name="Border" Value="Raised" />
+        <Property Name="DesignName" Value="CURRENT_LOCATION" />
+        <Property Name="CellSource" Value="CURRENT_LOCATION" />
+      </Cell>
+      <Cell Type="Resco.Controls.AdvancedTree.TextCell">
+        <Property Name="TextFont" Value="Arial, 8pt, style=Regular" />
+        <Property Name="SelectedBackColor" Value="White" />
+        <Property Name="Anchor" Value="Top, Left" />
+        <Property Name="Bounds" Value="151,17,55,32" />
+        <Property Name="ForeColor" Value="White" />
+        <Property Name="Border" Value="Raised" />
+        <Property Name="DesignName" Value="QTY" />
+        <Property Name="CellSource" Value="QTY" />
+      </Cell>
+      <Cell Type="Resco.Controls.AdvancedTree.TextCell">
+        <Property Name="TextFont" Value="Arial, 8pt, style=Regular" />
+        <Property Name="SelectedBackColor" Value="White" />
+        <Property Name="Anchor" Value="Top, Left" />
+        <Property Name="Bounds" Value="0,17,150,32" />
+        <Property Name="ForeColor" Value="White" />
+        <Property Name="Border" Value="Raised" />
+        <Property Name="DesignName" Value="MATERIAL_NAME_EXTENDED" />
+        <Property Name="CellSource" Value="MATERIAL_NAME_EXTENDED" />
+      </Cell>
+      <Cell Type="Resco.Controls.AdvancedTree.TextCell">
+        <Property Name="TextFont" Value="Arial, 8pt, style=Regular" />
+        <Property Name="SelectedBackColor" Value="White" />
+        <Property Name="Anchor" Value="Top, Left" />
+        <Property Name="Bounds" Value="0,48,60,16" />
+        <Property Name="ForeColor" Value="White" />
+        <Property Name="Border" Value="Raised" />
+        <Property Name="DesignName" Value="REGIMEN" />
+        <Property Name="CellSource" Value="REGIMEN" />
+      </Cell>
+      <Cell Type="Resco.Controls.AdvancedTree.TextCell">
+        <Property Name="TextFont" Value="Arial, 8pt, style=Regular" />
+        <Property Name="SelectedBackColor" Value="White" />
+        <Property Name="Anchor" Value="Top, Left" />
+        <Property Name="Bounds" Value="61,48,100,16" />
+        <Property Name="ForeColor" Value="White" />
+        <Property Name="Border" Value="Raised" />
+        <Property Name="DesignName" Value="LAST_UPDATED" />
+        <Property Name="CellSource" Value="LAST_UPDATED" />
+      </Cell>
+      <Cell Type="Resco.Controls.AdvancedTree.TextCell">
+        <Property Name="TextFont" Value="Arial, 8pt, style=Regular" />
+        <Property Name="Anchor" Value="Top, Left" />
+        <Property Name="Bounds" Value="160,48,45,16" />
+        <Property Name="Border" Value="Raised" />
+        <Property Name="DesignName" Value="IS_MASTER_PACK" />
+        <Property Name="CellSource" Value="IS_MASTER_PACK" />
+      </Cell>
+      <Cell Type="Resco.Controls.AdvancedTree.TextCell">
+        <Property Name="TextFont" Value="Arial, 8pt, style=Regular" />
+        <Property Name="SelectedBackColor" Value="White" />
+        <Property Name="Anchor" Value="Top, Left" />
+        <Property Name="Bounds" Value="0,65,105,16" />
+        <Property Name="ForeColor" Value="White" />
+        <Property Name="Border" Value="Raised" />
+        <Property Name="DesignName" Value="TextCell1" />
+        <Property Name="CellSource" Value="BATCH" />
+      </Cell>
+      <Cell Type="Resco.Controls.AdvancedTree.TextCell">
+        <Property Name="TextFont" Value="Arial, 8pt, style=Regular" />
+        <Property Name="FormatString" Value="{0:dd/MMMM/yyyy}" />
+        <Property Name="SelectedBackColor" Value="White" />
+        <Property Name="Anchor" Value="Top, Left" />
+        <Property Name="Bounds" Value="105,65,100,16" />
+        <Property Name="ForeColor" Value="White" />
+        <Property Name="Border" Value="Raised" />
+        <Property Name="DesignName" Value="TextCell2" />
+        <Property Name="CellSource" Value="DATE_EXPIRATION" />
+      </Cell>
+      <Property Name="Height" Value="85" />
+      <Property Name="Name" Value="NodeTemplate2" />
+      <Property Name="GradientBackColor" Value="ControlLightLight,ControlLightLight,Vertical,Transparent,Transparent" />
+    </NodeTemplate>
+    <NodeTemplate>
+      <Property Name="BackColor" Value="Transparent" />
+      <Cell Type="Resco.Controls.AdvancedTree.TextCell">
+        <Property Name="TextFont" Value="Arial, 8pt, style=Regular" />
+        <Property Name="SelectedBackColor" Value="White" />
+        <Property Name="Anchor" Value="Top, Left" />
+        <Property Name="Bounds" Value="0,0,205,16" />
+        <Property Name="ForeColor" Value="White" />
+        <Property Name="Border" Value="Raised" />
+        <Property Name="CustomizeCell" Value="true" />
+        <Property Name="DesignName" Value="SERIE" />
+        <Property Name="CellSource" Value="SERIAL" />
+      </Cell>
+      <Property Name="Height" Value="32" />
+      <Property Name="Name" Value="NodeTemplate3" />
+      <Property Name="GradientBackColor" Value="ControlLightLight,ControlLightLight,Vertical,Transparent,Transparent" />
+    </NodeTemplate>
+    <Property Name="BackColor" Value="Transparent" />
+    <Property Name="GradientBackColor" Value="ff012847,ff054e84,Vertical,Transparent,Transparent" />
+    <Property Name="UseGradient" Value="true" />
+    <Property Name="ScrollbarWidth" Value="24" />
+    <Property Name="ScrollbarSmallChange" Value="24" />
+    <Property Name="GridColor" Value="Transparent" />
+    <Property Name="PlusMinusSize" Value="32,32" />
+    <Property Name="PlusMinusMargin" Value="4,4" />
+    <Property Name="PlusImage" Value="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuND6NzHYAAANCSURBVGhD1ZrP51VBGMYvERH9C+3aphTt0ipaRauIiIiIVpGoVbSKiIiUWkX/QrtIKUVERLRqFSki6vl8u8/1njlzO7/mnNt5+HDNmXnmnXPOzJkfdzGC9or94ow4u4TfpHHtv9MecVk8E79bQl7KUHYj2i4uiPciF2AX8MBrh5hEp8UnkQsGXouX4q64s4TfpHEtVwbwxHs0HRS5AL4IAjwq2oq8lKFs6kcd1FVUJ8UPESvijp0QQ4VH+kSp65Qoousimn8XjCqlhSfesS7q7q1t4rGIhm/EATGW8H4lYp3EQCydld75h2IqUVesu/OT4J2PBlfF1KLOGAMxtRIjQOywU975VPFJEFPj6MQH6oNwId75TYsYHA+xEeNaXRLOzIgwpMM+Teg7DyKGODoRY1a7xFfhjEPHePuYw6KviMU+xEisNcW7/5aEgbKXGdIAREz2qj0Fxtn4NTwmhspeZmgDiMlexFr5NhwR8WIJ2c8MbQCKN5mYV7olfOEaCQVkP1OiAcRmv5skWPH9KrVqsp8p0QBWdfZb9dOdwonfSCgke5oSDUDEaE9iXxwKCSz1SsmeplQD4tKV2CvznkckFJI9TakGPBD23FoznA8JdOYmpV/YddjTsNLK5Utp6oNxwCH2ygeszbTVecei6UnFaf7WB232Dej6CjnvWDQ1oPYKde3ELDTaYE9zT+TypewW/1KtE89+GGVq6gSmqqVkT1OqAXHKv5pWz2UqQWz2q0z55ziZqww4s59Oz35Bg9ivd4bK+9VT9jJDGxD7KbHWNPtFPYrTCrYy9om+so/p2wBiaLWtgtKNLTZa+yp+XaHpC7tOcbO3cWMLsX33U7jQfbEpUbfjIKbWBx/MMVwQroipRZ0xhs4HHjdENNjk9jqxdBbj7BMRjTioG/OAgw77QsQ6iaE25rcVBeMCAhgRxjhNxDOONkDdvYOPwjx3yHdcDBUecRYAdNjiN4kR4J2IFcFn0feYlbKpH3W0Hm36iNPE9I6ZX4J+8lxwwH17Cb9J4xp5cmXxHOP0Myv+FnBRfBS5YLqAB16T/dUglf/swR3OBZiDJ7HRP3usEyMGG7C8w/zN5twSfpPGtSKjyl8tFn8A4GdSuUeWZmAAAAAASUVORK5CYII=" />
+    <Property Name="MinusImage" Value="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuND6NzHYAAAL6SURBVGhD1ZrfhxZRGMdfIiL2X+iu25Rd9i5dRVfRVUTEEkt0FVnaq2WvIpZlb0pdRf9Cd5HWZpclYomuuopsRGzfzzbP65mZsztn3p0zc+bLh9eZOc/5vjNznjk/ZpJAV8Q18UAsFfCbMo5lp8viqfggjiLhXOpQdxCdF4/EFxEy2AZiEOuC6EX3xTcRMgOfxbbYEpsF/KaMY6E6QExiJ9OCCBn4ITB4U8SKc6lD3Wo82qCtTnVX/Ba+Ia7YHXFWEaN6R2nrnuhEa8IHPxRkla5FTGL7tmh7Zp0Tb4UPuCvmRSoRe0f4NvGAl9aqXvnXoi/Rlm+79Z3gmfcBnom+RZveA56iRAbwHbbPK1+VvxN4asxOvKC+CqvEMz+08GB+8IbHE/VE2MlkhJQdNlZ48NkJj0HNiZ/CTuwix3clvJgvPOK1Jn/19yjITHgyf7W7QJ71b8NbIjfhyfzhtfRuuCH8wVzlLzKep3oh7MAqBZkKb+bzOQUm/3xlOWsqxKzOfE776UVhhb8oyFx4NL94nyy6AqZ6uctPXfFeGve8oSBzvRLm93jOsOwK6MxNep+Ypj7oEw7eSy+wmGGrnZuK6+I0+WH+8Qtt9H+g7SNk56ai6Q/UHqG2nZiJRkouidNU68SjT6MMTa2AoWru8kP+6bB6LEMJvJnP0pB/jIO5UsIZ/XB69BMaxHq9nVB6vjKR76d4rWn0k3rkhxUsZVwVQwsPUcsqqLqwxULr0PKLvY0LW4jluz/CKr0UQ4m2zQeeojc+GGNYRVgRfYs2vYfWGx7rwgcYcnkdL61Fnn0nfCA26lKul9JhPwnfJh5qOT9WVPQTCCAjpNhNJKbPNkDbM5v3Inhok++2OKuI4UcBQIft/CKRAfaFbwi+i1m3WalbjUcb0dlmFrGbWL1ixl9BP/ko2ODeKOA3ZRzjnFBdYqbY/QyKzwIeiwMRMtMGYhCrt08NqrKPPbjCIYMhuBODfuxxksgYLMDyDPOZzcMCflPGsU6yyn9NJv8AAKz9+0Ib0AAAAAAASUVORK5CYII=" />
+    <Property Name="ShowHeader" Value="true" />
+    <Property Name="ShowFooter" Value="true" />
+    <Header>
+      <Property Name="StringData" Value="" />
+    </Header>
+    <Footer>
+      <Property Name="TemplateIndex" Value="3" />
+      <Property Name="StringData" Value="" />
+    </Footer>
+    <Property Name="SelectionMode" Value="SelectDeselect" />
+    <Property Name="TouchScrolling" Value="true" />
+    <Property Name="TouchSensitivity" Value="9" />
+    <Property Name="AutoScroll" Value="true" />
+    <Property Name="Dock" Value="Fill" />
+    <Property Name="Location" Value="0,0" />
+    <Property Name="Size" Value="240,320" />
+    <Property Name="TabIndex" Value="2" />
+  </AdvancedTree>
+</DSAdvancedTree>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<DSDetailView xmlns="http://www.rescodeveloper.net/schemas/DSDetailView.xsd">
+  <DetailView DpiX="96" DpiY="96">
+    <Property Name="Dock" Value="Fill" />
+    <Property Name="KeyTabNavigation" Value="True" />
+    <Property Name="TouchScrolling" Value="True" />
+    <Property Name="PagingStyle" Value="Dots" />
+    <Property Name="Size" Value="240,400" />
+    <Property Name="Location" Value="0,0" />
+    <Property Name="GradientBackColor" Value="Black,Silver,Vertical" />
+    <Property Name="ForeColor" Value="White" />
+    <Property Name="UseClickVisualize" Value="True" />
+    <Property Name="UseGradient" Value="True" />
+    <Property Name="DisabledForeColor" Value="Gray" />
+    <Property Name="BackColor" Value="ff404040" />
+    <Property Name="EnableDesignTimeCustomItems" Value="True" />
+    <Property Name="TabIndex" Value="0" />
+    <Property Name="SeparatorWidth" Value="0" />
+    <Property Name="LabelWidth" Value="90" />
+    <Property Name="BackgroundImage" Value="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" />
+    <Property Name="KeyNavigation" Value="True" />
+    <Item Type="Resco.Controls.DetailView.Item">
+      <Property Name="TextBackColor" Value="Black" />
+      <Property Name="Height" Value="0" />
+      <Property Name="Name" Value="Separator1" />
+      <Property Name="ItemBorder" Value="None" />
+      <Property Name="LabelBackColor" Value="ffcf5f00" />
+      <Property Name="LabelHeight" Value="3" />
+      <Property Name="LabelAlignment" Value="Left" />
+      <Property Name="Style" Value="LabelTop" />
+    </Item>
+    <Item Type="Resco.Controls.DetailView.Item">
+      <Property Name="TextBackColor" Value="White" />
+      <Property Name="Height" Value="0" />
+      <Property Name="Name" Value="Header1" />
+      <Property Name="Label" Value="..." />
+      <Property Name="TextFont" Value="Arial, 10pt, style=Regular" />
+      <Property Name="ItemBorder" Value="None" />
+      <Property Name="LabelBackColor" Value="Black" />
+      <Property Name="LabelFont" Value="Arial, 10pt, style=Bold" />
+      <Property Name="LabelHeight" Value="24" />
+      <Property Name="LabelForeColor" Value="White" />
+      <Property Name="LabelAlignment" Value="Center" />
+      <Property Name="Style" Value="LabelTop" />
+    </Item>
+    <Item Type="Resco.Controls.DetailView.ItemTextBox">
+      <Property Name="Name" Value="txtScannedSKU" />
+      <Property Name="TextFont" Value="Arial, 12pt, style=Bold" />
+      <Property Name="LabelFont" Value="Arial, 14pt, style=Regular" />
+      <Property Name="TextForeColor" Value="DarkOrange" />
+      <Property Name="LabelHeight" Value="24" />
+      <Property Name="ReadOnly" Value="True" />
+      <Property Name="Height" Value="24" />
+      <Property Name="CharacterCasing" Value="Upper" />
+      <Property Name="Style" Value="LabelTop" />
+      <Property Name="LabelForeColor" Value="DarkOrange" />
+      <Property Name="TextAlign" Value="Center" />
+      <Property Name="Label" Value="Scan SKU:" />
+      <Property Name="LabelAlignment" Value="Center" />
+      <Property Name="Text" Value="..." />
+    </Item>
+    <Item Type="Resco.Controls.DetailView.ItemTextBox">
+      <Property Name="Name" Value="lblSKUName" />
+      <Property Name="TextFont" Value="Arial, 14pt, style=Regular" />
+      <Property Name="LabelFont" Value="Arial, 14pt, style=Regular" />
+      <Property Name="TextForeColor" Value="White" />
+      <Property Name="LabelHeight" Value="1" />
+      <Property Name="ReadOnly" Value="True" />
+      <Property Name="Height" Value="48" />
+      <Property Name="CharacterCasing" Value="Upper" />
+      <Property Name="Style" Value="LabelTop" />
+      <Property Name="LabelForeColor" Value="DarkOrange" />
+      <Property Name="Label" Value="Cliente:" />
+      <Property Name="LabelAlignment" Value="Left" />
+      <Property Name="MultiLine" Value="True" />
+    </Item>
+    <Item Type="Resco.Controls.DetailView.ItemTextBox">
+      <Property Name="Name" Value="txtSerie" />
+      <Property Name="TextFont" Value="Arial, 14pt, style=Regular" />
+      <Property Name="LabelFont" Value="Arial, 14pt, style=Regular" />
+      <Property Name="TextForeColor" Value="White" />
+      <Property Name="LabelHeight" Value="24" />
+      <Property Name="Height" Value="24" />
+      <Property Name="CharacterCasing" Value="Upper" />
+      <Property Name="Style" Value="LabelTop" />
+      <Property Name="LabelForeColor" Value="White" />
+      <Property Name="TextAlign" Value="Right" />
+      <Property Name="Label" Value="Scan Serie:" />
+      <Property Name="ItemBorder" Value="Flat" />
+      <Property Name="Text" Value="..." />
+    </Item>
+  </DetailView>
+</DSDetailView>

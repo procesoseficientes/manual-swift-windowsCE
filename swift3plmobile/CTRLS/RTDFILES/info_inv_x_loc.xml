@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<DSAdvancedList xmlns="http://www.rescodeveloper.net/schemas/DSAdvancedList.xsd">
+  <AdvancedList DpiX="96" DpiY="96">
+    <Property Name="KeyNavigation" Value="true" />
+    <RowTemplate>
+      <Property Name="Name" Value="RowTemplate_Header" />
+      <Cell Type="Resco.Controls.AdvancedList.TextCell">
+        <Property Name="TextFont" Value="Arial, 10pt, style=Regular" />
+        <Property Name="Alignment" Value="MiddleCenter" />
+        <Property Name="Bounds" Value="0,0,-1,24" />
+        <Property Name="ForeColor" Value="White" />
+        <Property Name="CellSource" Value="&quot;SCAN UBICACION&quot;" />
+        <Property Name="Border" Value="Flat" />
+        <Property Name="DesignName" Value="PANEL_TITLE" />
+      </Cell>
+      <Property Name="Height" Value="24" />
+      <Property Name="BackColor" Value="White" />
+      <Property Name="GradientBackColor" Value="DimGray,Black,Vertical,ff404040,ff404040" />
+    </RowTemplate>
+    <RowTemplate>
+      <Property Name="Name" Value="RowTemplate_Row" />
+      <Cell Type="Resco.Controls.AdvancedList.TextCell">
+        <Property Name="TextFont" Value="Arial, 8pt, style=Regular" />
+        <Property Name="SelectedBackColor" Value="White" />
+        <Property Name="Bounds" Value="0,0,60,24" />
+        <Property Name="ForeColor" Value="White" />
+        <Property Name="CellSource" Value="LICENSE_ID" />
+        <Property Name="DesignName" Value="LICENSE_ID" />
+      </Cell>
+      <Cell Type="Resco.Controls.AdvancedList.TextCell">
+        <Property Name="TextFont" Value="Arial, 7pt, style=Regular" />
+        <Property Name="SelectedBackColor" Value="White" />
+        <Property Name="Bounds" Value="0,25,350,24" />
+        <Property Name="ForeColor" Value="White" />
+        <Property Name="CellSource" Value="MATERIAL_NAME_EXTENDED" />
+        <Property Name="DesignName" Value="MATERIAL_NAME_EXTENDED" />
+      </Cell>
+      <Cell Type="Resco.Controls.AdvancedList.TextCell">
+        <Property Name="TextFont" Value="Arial, 8pt, style=Regular" />
+        <Property Name="SelectedBackColor" Value="White" />
+        <Property Name="Bounds" Value="180,0,50,24" />
+        <Property Name="ForeColor" Value="White" />
+        <Property Name="CellSource" Value="QTY" />
+        <Property Name="Border" Value="Raised" />
+        <Property Name="DesignName" Value="QTY" />
+      </Cell>
+      <Property Name="Height" Value="48" />
+      <Property Name="BackColor" Value="Transparent" />
+      <Property Name="ForeColor" Value="White" />
+    </RowTemplate>
+    <RowTemplate>
+      <Property Name="Name" Value="RowTemplate_Selected" />
+      <Cell Type="Resco.Controls.AdvancedList.TextCell">
+        <Property Name="TextFont" Value="Arial, 8pt, style=Regular" />
+        <Property Name="SelectedBackColor" Value="White" />
+        <Property Name="Bounds" Value="0,0,60,20" />
+        <Property Name="ForeColor" Value="Black" />
+        <Property Name="CellSource" Value="LICENSE_ID" />
+        <Property Name="DesignName" Value="TextCell1" />
+      </Cell>
+      <Cell Type="Resco.Controls.AdvancedList.TextCell">
+        <Property Name="TextFont" Value="Arial, 7pt, style=Regular" />
+        <Property Name="SelectedBackColor" Value="White" />
+        <Property Name="Bounds" Value="0,20,350,20" />
+        <Property Name="ForeColor" Value="Black" />
+        <Property Name="CellSource" Value="MATERIAL_NAME_EXTENDED" />
+        <Property Name="DesignName" Value="TextCell2" />
+      </Cell>
+      <Cell Type="Resco.Controls.AdvancedList.TextCell">
+        <Property Name="TextFont" Value="Arial, 8pt, style=Regular" />
+        <Property Name="SelectedBackColor" Value="White" />
+        <Property Name="Bounds" Value="180,0,50,19" />
+        <Property Name="ForeColor" Value="Black" />
+        <Property Name="CellSource" Value="QTY" />
+        <Property Name="Border" Value="Raised" />
+        <Property Name="DesignName" Value="TextCell3" />
+      </Cell>
+      <Cell Type="Resco.Controls.AdvancedList.TextCell">
+        <Property Name="TextFont" Value="Arial, 8pt, style=Regular" />
+        <Property Name="SelectedBackColor" Value="White" />
+        <Property Name="Bounds" Value="0,40,100,20" />
+        <Property Name="ForeColor" Value="Black" />
+        <Property Name="CellSource" Value="REGIMEN" />
+        <Property Name="DesignName" Value="REGIMEN" />
+      </Cell>
+      <Cell Type="Resco.Controls.AdvancedList.TextCell">
+        <Property Name="TextFont" Value="Arial, 8pt, style=Regular" />
+        <Property Name="Bounds" Value="150,40,120,20" />
+        <Property Name="ForeColor" Value="Black" />
+        <Property Name="CellSource" Value="LAST_UPDATED" />
+        <Property Name="DesignName" Value="LAST_UPDATED" />
+      </Cell>
+      <Cell Type="Resco.Controls.AdvancedList.TextCell">
+        <Property Name="TextFont" Value="Arial, 8pt, style=Regular" />
+        <Property Name="SelectedBackColor" Value="White" />
+        <Property Name="Bounds" Value="0,60,100,20" />
+        <Property Name="ForeColor" Value="Black" />
+        <Property Name="CellSource" Value="BATCH" />
+        <Property Name="DesignName" Value="BATCH" />
+      </Cell>
+      <Cell Type="Resco.Controls.AdvancedList.TextCell">
+        <Property Name="TextFont" Value="Arial, 8pt, style=Regular" />
+        <Property Name="FormatString" Value="{0:dd/MMMM/yyyy}" />
+        <Property Name="SelectedBackColor" Value="White" />
+        <Property Name="Bounds" Value="100,60,65,15" />
+        <Property Name="ForeColor" Value="Black" />
+        <Property Name="CellSource" Value="DATE_EXPIRATION" />
+        <Property Name="DesignName" Value="DATE_EXPIRATION" />
+      </Cell>
+      <Cell Type="Resco.Controls.AdvancedList.TextCell">
+        <Property Name="TextFont" Value="Arial, 8pt, style=Regular" />
+        <Property Name="SelectedBackColor" Value="White" />
+        <Property Name="Bounds" Value="163,60,-1,15" />
+        <Property Name="ForeColor" Value="Black" />
+        <Property Name="CellSource" Value="IS_MASTER_PACK" />
+        <Property Name="DesignName" Value="IS_MASTER_PACK" />
+      </Cell>
+      <Property Name="Height" Value="75" />
+      <Property Name="BackColor" Value="Orange" />
+      <Property Name="ForeColor" Value="White" />
+    </RowTemplate>
+    <Property Name="BackColor" Value="White" />
+    <Property Name="GradientBackColor" Value="ff012847,ff054e84,Horizontal,Transparent,Transparent" />
+    <Property Name="TouchScrolling" Value="true" />
+    <Property Name="TouchSensitivity" Value="9" />
+    <Property Name="FocusOnClick" Value="true" />
+    <Property Name="ShowScrollbar" Value="false" />
+    <Property Name="ShowHeader" Value="true" />
+    <HeaderRow>
+      <Property Name="StringData" Value="" />
+    </HeaderRow>
+    <Property Name="TemplateIndex" Value="1" />
+    <Property Name="SelectedTemplateIndex" Value="1" />
+    <Property Name="Dock" Value="Fill" />
+    <Property Name="Location" Value="0,0" />
+    <Property Name="Size" Value="240,320" />
+    <Property Name="TabIndex" Value="1" />
+    <DbConnector>
+      <CommandText />
+      <ConnectionString />
+    </DbConnector>
+  </AdvancedList>
+</DSAdvancedList>

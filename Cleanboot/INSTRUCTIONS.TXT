@@ -1,0 +1,3 @@
+Copy the contents of this folder into \temp
+Navigate to \temp folder
+run StartUpdLdr.exe
